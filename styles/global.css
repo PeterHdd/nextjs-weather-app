@@ -1,0 +1,43 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import "swiper/swiper-bundle.min.css";
+@import "swiper/swiper.min.css";
+
+
+.container-swipe .swiper, swiper-container  {
+    padding: 0.5rem;
+}
+
+.container-swipe {
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    border-radius: 0.5rem;
+    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    --tw-border-opacity: 1;
+    border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
+@media (min-width: 1024px) {
+    .container-swipe {
+        width: 75%;
+        margin: auto;
+    }
+}
+
+.container-swipe:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.swiper-slide {
+    display: flex !important;
+    align-items: center !important;
+    text-align: center !important;
+    justify-content: center !important;
+}
