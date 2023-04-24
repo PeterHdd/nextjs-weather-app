@@ -13,6 +13,11 @@ A responsive Nextjs App integrated with Firebase, Weather API, and TailwindCss ð
 - **commitlint** - Lint your commits and adhere to a commit convention
 - **ESLint** â€” Pluggable JavaScript linter
 - **Mock Data**
+- **Swiper**
+
+![weather-indol-vercel-app-480x800phone-86bdf8](https://user-images.githubusercontent.com/29070108/234030956-220795b6-2eec-4e65-827a-77686c24127f.jpg)
+
+![weather-indol-vercel-app-1024x768desktop-86bdf8](https://user-images.githubusercontent.com/29070108/234031216-cadeb42b-23ab-42b0-bb84-3626bfb37e54.jpg)
 
 ## Getting Started
 
