@@ -29,7 +29,7 @@ export const HourlyList = (props) => {
                   <div className="text-base font-normal text-gray-400">
                     <p>
                       {value.temp}
-                      <span>&#8451;</span>
+                      <span>℃</span>
                     </p>
                     <p>{value.humidity}%</p>
                   </div>

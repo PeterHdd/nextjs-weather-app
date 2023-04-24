@@ -34,11 +34,11 @@ export const DailyList = (props) => {
                 <div className="flex items-center flex-col text-base font-semibold text-gray-900">
                   <p>
                     {value.temp.day}
-                    <span>&#8451;</span>
+                    <span>℃</span>
                   </p>
                   <p>
                     {value.temp.night}
-                    <span>&#8451;</span>
+                    <span>℃</span>
                   </p>
                 </div>
               </div>
