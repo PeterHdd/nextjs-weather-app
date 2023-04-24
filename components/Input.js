@@ -47,7 +47,7 @@ export const Input = () => {
         />
         <AiOutlineSearch
           size={30}
-          className="text-gray-500 m-auto"
+          className="text-gray-500 m-auto cursor-pointer"
           onClick={handleEnterKey}
         ></AiOutlineSearch>
       </div>
