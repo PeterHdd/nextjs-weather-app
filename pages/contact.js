@@ -104,15 +104,19 @@ export const Contact = () => {
                   </a>
                 </div>
                 <div className="flex flex-row pt-16 gap-x-8 pb-4">
-                  <AiFillGithub size={25}>
-                    <a href="https://github.com/peterhdd"></a>
-                  </AiFillGithub>
-                  <BsStackOverflow size={25}>
-                    <a href="https://stackoverflow.com/users/7015400/peter-haddad"></a>
-                  </BsStackOverflow>
-                  <AiOutlineTwitter size={25}>
-                    <a href="https://twitter.com/peterndev"></a>
-                  </AiOutlineTwitter>
+                  <a href="https://github.com/peterhdd" target="_blank">
+                    <AiFillGithub size={25}></AiFillGithub>
+                  </a>
+
+                  <a
+                    href="https://stackoverflow.com/users/7015400/peter-haddad"
+                    target="_blank"
+                  >
+                    <BsStackOverflow size={25}></BsStackOverflow>
+                  </a>
+                  <a href="https://twitter.com/peterndev" target="_blank">
+                    <AiOutlineTwitter size={25}> </AiOutlineTwitter>
+                  </a>
                 </div>
               </div>
               <div>

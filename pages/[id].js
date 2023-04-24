@@ -16,8 +16,9 @@ export const Country = (props) => {
       </Head>
       <div className="fixed h-screen w-screen object-cover -z-10 bg-center bg-cover">
         <Image
-          src="/background-image.avif"
-          layout="fill"
+          src="/background-image.jpg"
+          fill
+          sizes="100vw"
           alt="backgroundImage"
         ></Image>
       </div>
