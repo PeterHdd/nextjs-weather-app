@@ -49,7 +49,7 @@ export const Navbar = () => {
             href="/contact"
             className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white"
           >
-            Contact Us
+            Contact
           </Link>
         </div>
       </div>
@@ -72,7 +72,7 @@ export const Navbar = () => {
           href="/contact"
           className="text-4xl p-4 text-white hover:text-gray-500"
         >
-          Contact Us
+          Contact
         </Link>
       </div>
     </nav>

@@ -41,7 +41,7 @@ export const getServerSideProps = async (context) => {
   const { id } = context.query;
   if (production) {
     const coordinates = await getGeoCoding(id);
-    if (!coordinates.length) {
+    if (coordinates && !coordinates.length) {
       return {
         notFound: true,
       };

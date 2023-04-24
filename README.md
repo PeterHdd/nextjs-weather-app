@@ -16,8 +16,6 @@ A responsive Nextjs App integrated with Firebase, Weather API, and TailwindCss �
 
 ## Getting Started
 
----
-
 First you would need to create a project in [Firebase](https://firebase.google.com/) and then get the `firebaseconfig` object and add the firebase API keys in the `.env.local` file. Then you can clone the project here and then execute:
 
 ```
@@ -34,15 +32,17 @@ npm run dev
 
 which will run the development environment and you can find it in http://localhost:3000
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FPeterHdd%2Fnextjs-weather-app)
+
+## Bug tracker
+
+Have a bug? Please create an issue here on GitHub at [Issues](https://github.com/PeterHdd/nextjs-weather-app/issues).
+
 ## 📝 License
 
----
-
-Distributed under the MIT License.
+Distributed under the [MIT License](https://github.com/PeterHdd/nextjs-weather-app/blob/main/LICENSE).
 
 ## Support!
-
----
 
 Support the repository by joining the [stargazers](https://github.com/PeterHdd/nextjs-weather-app/stargazers) for this repo ⭐
 
