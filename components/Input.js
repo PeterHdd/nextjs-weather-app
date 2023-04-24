@@ -35,7 +35,7 @@ export const Input = () => {
     <>
       <div className="flex justify-between m-auto top-1/2 rounded-xl relative focus:bg-white w-72 md:w-96 lg:w-1/2 focus:border-gray-100 bg-gray-200 border-gray-200">
         <input
-          className="bg-gray-200 appearance-none border-2 rounded-xl flex justify-center items-center py-2 px-4 text-gray-900 placeholder-gray-500 text-sm grow leading-tight focus:outline-none"
+          className="bg-gray-200 appearance-none rounded-xl flex justify-center items-center py-2 px-4 text-gray-900 placeholder-gray-500 text-sm grow leading-tight focus:outline-none"
           id="inline-full-name"
           type="text"
           placeholder="Search by city, e.g. London"
