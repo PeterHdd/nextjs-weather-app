@@ -11,7 +11,7 @@ export default function Home(props) {
       </Head>
       <div className="fixed h-screen w-screen object-cover -z-10 bg-center bg-cover">
         <Image
-          src="/background-image.avif"
+          src="/background-image.jpg"
           sizes="100vw"
           fill
           alt="backgroundImage"
