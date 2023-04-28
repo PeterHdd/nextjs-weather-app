@@ -122,7 +122,7 @@ export const Contact = () => {
               <div>
                 <form
                   onSubmit={submitForm}
-                  className="px-10 pt-4 border border-gray-200 rounded-lg shadow-2xl bg-white"
+                  className="px-10 pt-4 border border-gray-200 rounded-lg shadow-2xl bg-white lg:mr-10"
                 >
                   <h1 className="text-2xl -ml-10 p-4">Get in Touch</h1>
                   <label className="block mb-6">
